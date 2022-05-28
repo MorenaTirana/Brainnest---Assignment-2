@@ -157,12 +157,12 @@ align-items: center;
 }
 .quote p, .quote h2{
 color:#1F2937;
-font-size: 36px;
-font-weight: 300; /* light */
 }
 
 .quote p{
     font-style: italic;
+    font-size: 36px;
+    font-weight: 300; /* light */
     height: 200px;
     width: 790px;
 }
