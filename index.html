@@ -4,23 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links & Images </title>
+    <title>Links & Images | Homepage </title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" a href="css/style.css">
 </head>
 <body>
-    <div class="header">
-        <h1>
-            <a href="index.html">Homepage</a>
-        </h1>
-        <a href="https://theuselessweb.com/">click me</a>
-        <a href="./pages/about.html">About</a>
-    </div>
-  
-    <img src="images/foto3.png" class="foto3"alt="">
-    <img src="images/foto2.png" class="foto"alt="">
     
+    <!---header-->
+    <div class="header">
+        <!-- navbar-->
+        <nav class="navbar">
+            <h1 class="header-logo"> training assignment 2</h1>
+    
+            <ul class="header-links">
+                <li class="links-item"><a href="#" class="link active">home</a></li>
+                <li class="links-item"><a href="https://theuselessweb.com/" class="link">click me</a></li>
+                <li class="links-item"><a href="./pages/about.html" class="link">about me</a></li>
+            </ul>
+        </nav>
 
+        <!-- home section-->
+        <section class="main">
+            <div class="main-content">
+                <h1 class="hero-main">This website is awesome</h1>
+                <p class="header-secondary-text">This website has some subtext that goes here 
+                    under the main title. It's a smaller font and the color 
+                    is lower contrast.</p>
+                <a href="signup.html" class="main-btn">Sign up</a>
+            </div>
+            <img src="img/img1.png" class="image" alt="">
+        </section>
+    </div>
+
+    <!---information section-->
+    <section class="information">
+        <h2 class="heading"> Some random information</h2>
+        <div class="image-container">
+            <div class="image-card">
+                <img src="img/fxac.gif" class="image" alt="">
+                <p class="image-name">This is some subtext under 
+                    an illustrtion or image</p>
+            </div>
+            <div class="image-card">
+                <img src="img/K1up.gif" class="image" alt="">
+                <p class="image-name">This is some subtext under 
+                    an illustration or image</p>
+            </div>
+            <div class="image-card">
+                <img src="img/foto2.png" class="image" alt="">
+                <p class="image-name">This is some subtext under 
+                    an illustration or image</p>
+            </div>
+            <div class="image-card">
+                <img src="img/comment.gif" class="image" alt="">
+                <p class="image-name">This is some subtext under 
+                    an illustration or image</p>
+            </div>
+        </div>
+    </section>
+
+    <!--quote section-->
+    <section class="quote">
+        <p>This is an inspiring quote, or a testiomonial from a customer. 
+            Maybe it's just filling up space, or maybe people will actually 
+            read it. Who knows? All I know is that it looks nice.
+        </p>
+        <h2>-Thor</h2>
+    </section>
+
+    <!--call to action section-->
+    <section class="action">
+        <div class="col-1">
+            <h2>Call to action! It's time!</h2>
+            <p> Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <button class="action-btn"><a href="signup.html">Sign up</a></button>
+    </section>
+    
+    <!--footer-->
+    <footer>Copyright ©</footer> 
    
 
 </body>
