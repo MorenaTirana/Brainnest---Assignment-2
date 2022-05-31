@@ -48,6 +48,7 @@ h1{
     margin: 0 10px;
     padding: 10px;
     position: relative;
+    cursor: pointer;
 }
 .link:hover:not(.active){
     opacity: 0.5;
@@ -91,6 +92,7 @@ p.header-secondary-text{
     background: #3882F6;
     color: #fff;
     border: none;
+    cursor: pointer;
 }
 .main img{
     width: 450px;
@@ -195,6 +197,7 @@ color:#1F2937;
     border-radius: 5px;
     border: 2px solid #fff;
     background-color: #3882F6;
+    cursor: pointer;
 }
 .action-btn a{
     text-decoration: none;
